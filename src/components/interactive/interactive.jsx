@@ -7,7 +7,7 @@ const Interactive = () => {
     "Founded in 2011, Loopstudios has been producing world-class virtual reality projects for some of the best companies around the globe. Our award-winning creations have transformed business through digital experiences that bind to their brand.";
 
   return (
-    <div className="vr-section">
+    <div id="interative-section" className="vr-section">
       <div className="img">
         <img src={imgInteractive} alt="vr-img" />
       </div>

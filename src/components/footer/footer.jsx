@@ -12,7 +12,7 @@ const Footer = () => {
   let date = new Date();
 
   return (
-    <div className="footer-section">
+    <div id="footer" className="footer-section">
       <div className="footer-container">
         <div className="img-logo one">
           <img src={imgLogo} alt="logo-img" />
@@ -44,19 +44,19 @@ const Footer = () => {
         <div className="three">
           <ul className="footer-list">
             <li>
-              <a href="/">About</a>
+              <a href="#interative-section">About</a>
             </li>
             <li>
-              <a href="/">Careers</a>
+              <a href="#creation-section">Careers</a>
             </li>
             <li>
-              <a href="/">Events</a>
+              <a href="#creation-section">Events</a>
             </li>
             <li>
-              <a href="/">Products</a>
+              <a href="#creation-section">Products</a>
             </li>
             <li>
-              <a href="/">Support</a>
+              <a href="#footer">Support</a>
             </li>
           </ul>
         </div>

@@ -25,7 +25,7 @@ const OurCreations = () => {
   ];
 
   return (
-    <div className="our-creations-section">
+    <div id="creation-section" className="our-creations-section">
       <div className="our-header">
         <h1>OUR CREATIONS</h1>
         <p>SEE ALL</p>
