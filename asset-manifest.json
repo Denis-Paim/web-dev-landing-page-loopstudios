@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/web-dev-landing-page-loopstudios/static/css/main.e45d2754.css",
+    "main.js": "/web-dev-landing-page-loopstudios/static/js/main.017c1e0f.js",
+    "static/media/image-hero.jpg": "/web-dev-landing-page-loopstudios/static/media/image-hero.3de81110dee4f75f44f9.jpg",
+    "static/media/image-from-above.jpg": "/web-dev-landing-page-loopstudios/static/media/image-from-above.f316f3f3afc353415f71.jpg",
+    "static/media/image-interactive.jpg": "/web-dev-landing-page-loopstudios/static/media/image-interactive.1d330522c9ca6cf07a9c.jpg",
+    "static/media/image-curiosity.jpg": "/web-dev-landing-page-loopstudios/static/media/image-curiosity.40d51f38342a87fea0cc.jpg",
+    "static/media/image-soccer-team.jpg": "/web-dev-landing-page-loopstudios/static/media/image-soccer-team.24ac0872cf2b5dd86a58.jpg",
+    "static/media/image-night-arcade.jpg": "/web-dev-landing-page-loopstudios/static/media/image-night-arcade.a5acf9d0f154b09407d4.jpg",
+    "static/media/image-deep-earth.jpg": "/web-dev-landing-page-loopstudios/static/media/image-deep-earth.f8da6014c990a9866d8c.jpg",
+    "static/media/image-grid.jpg": "/web-dev-landing-page-loopstudios/static/media/image-grid.043c26effd2704be777a.jpg",
+    "static/media/image-fisheye.jpg": "/web-dev-landing-page-loopstudios/static/media/image-fisheye.8bb3f74e4211fc238b01.jpg",
+    "static/media/image-pocket-borealis.jpg": "/web-dev-landing-page-loopstudios/static/media/image-pocket-borealis.0b89db1f6a9c0e56dcfd.jpg",
+    "static/media/logo.svg": "/web-dev-landing-page-loopstudios/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg",
+    "index.html": "/web-dev-landing-page-loopstudios/index.html",
+    "static/media/icon-close.svg": "/web-dev-landing-page-loopstudios/static/media/icon-close.bbbbb0069bb8a015e77966ccb00bf3cd.svg",
+    "static/media/icon-hamburger.svg": "/web-dev-landing-page-loopstudios/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
+    "main.e45d2754.css.map": "/web-dev-landing-page-loopstudios/static/css/main.e45d2754.css.map",
+    "main.017c1e0f.js.map": "/web-dev-landing-page-loopstudios/static/js/main.017c1e0f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e45d2754.css",
+    "static/js/main.017c1e0f.js"
+  ]
+}
