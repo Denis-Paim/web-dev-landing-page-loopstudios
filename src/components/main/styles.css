@@ -1,0 +1,10 @@
+.main-section {
+  padding: 110px 130px;
+}
+
+@media (max-width: 690px) {
+  .main-section {
+    padding: 100px 30px 150px;
+    text-align: center;
+  }
+}

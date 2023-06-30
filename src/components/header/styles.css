@@ -1,0 +1,158 @@
+.header-container {
+  background-image: url(../assets/image-hero.jpg);
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  padding: 75px 130px;
+}
+
+.nav-logo {
+  width: 200px;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list a {
+  text-decoration: none;
+  color: white;
+  margin-left: 25px;
+  font-size: 17px;
+}
+
+.nav-list li {
+  list-style: none;
+  font-family: "Josefin Sans", sans-serif;
+  font-weight: 400;
+}
+
+.nav-list a:hover::after {
+  content: "";
+  width: 20px;
+  height: 1px;
+  padding-top: 1px;
+  position: absolute;
+  background-color: white;
+  display: block;
+  margin-top: 5px;
+  margin-left: 45px;
+}
+
+.img-burger {
+  display: none;
+}
+
+.img-close {
+  display: none;
+}
+
+.text-box {
+  padding-top: 120px;
+  width: 600px;
+  height: 500px;
+}
+
+.text-box h1 {
+  font-weight: 300;
+  padding: 40px 70px 40px 30px;
+  font-family: "Josefin Sans", sans-serif;
+  border: 2px solid white;
+  font-size: 60px;
+  color: white;
+}
+
+@media (max-width: 690px) {
+  .header-container {
+    width: 375px;
+    height: 650px;
+  }
+
+  .container {
+    height: 550px;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+
+  .text-box {
+    padding: 0;
+    width: 260px;
+    height: 100px;
+  }
+
+  .text-box h1 {
+    margin-top: 140px;
+    width: 250px;
+    padding-right: 50px;
+    padding-left: 30px;
+    font-size: 40px;
+  }
+
+  .nav-logo {
+    width: 150px;
+  }
+
+  .img-burger {
+    display: block;
+  }
+
+  .img-close {
+    display: none;
+  }
+
+  #change.active .img-close {
+    display: block;
+  }
+
+  #change.active .img-burger {
+    display: none;
+  }
+
+  #change.active .container {
+    background-color: black;
+  }
+
+  #change.active .text-box {
+    display: none;
+  }
+
+  #change.active #menu {
+    display: block;
+  }
+
+  #menu {
+    display: none;
+    position: absolute;
+    margin-top: 60px;
+    width: 90%;
+    top: 120px;
+    right: 0;
+    left: 18px;
+    background-color: black;
+    height: 50vh;
+    z-index: 1000;
+  }
+
+  #menu a {
+    margin-left: 0;
+    font-size: 25px;
+    text-transform: uppercase;
+    font-weight: 300;
+  }
+
+  #menu li {
+    margin-top: 25px;
+  }
+}
